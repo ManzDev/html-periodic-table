@@ -1,0 +1,16 @@
+:root {
+  --main-font: jost, sans-serif;
+  --code-font: "Victor Mono", monospace;
+  --table-size: 1352px;
+}
+
+body {
+  background: #223;
+  font-family: var(--main-font);
+}
+
+.periodic-table {
+  max-width: var(--table-size);
+  margin: 3rem auto;
+  height: 400px;
+}
